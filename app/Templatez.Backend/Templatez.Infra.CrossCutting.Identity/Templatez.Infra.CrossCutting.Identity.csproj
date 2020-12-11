@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Templatez.Domain.Core\Templatez.Domain.Core.csproj" />
+    <ProjectReference Include="..\Templatez.Domain\Templatez.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  company_templatez_api:
+    networks: 
+      company_network_templatez_api_development:
+        aliases:
+          - templatezapidevelopment
+networks:
+  company_network_templatez_api_development:
+    external: true

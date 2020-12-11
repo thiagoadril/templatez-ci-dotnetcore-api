@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Templatez.Application.Core\Templatez.Application.Core.csproj" />
+    <ProjectReference Include="..\Templatez.Domain.Core\Templatez.Domain.Core.csproj" />
+    <ProjectReference Include="..\Templatez.Domain\Templatez.Domain.csproj" />
+    <ProjectReference Include="..\Templatez.Infra.Data\Templatez.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
